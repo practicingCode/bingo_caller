@@ -1,0 +1,27 @@
+td {
+    
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+th{   font-family: Helvetica;
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid black;
+  width: 20%;
+  background-color: lightgreen;
+        
+        
+    }
+
+.orange{
+
+background-color: orange;
+}
+
+#winCon{
+background-color: orange;
+opacity: 0.5;
+}

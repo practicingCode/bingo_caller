@@ -1,0 +1,95 @@
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+
+<title>Bingo</title>
+
+<link rel="stylesheet" type="text/css" href="css/mystylep3v9.css" />
+
+
+
+
+</head>
+
+<body onload="changeBingo()">
+    
+    <script type =text/javascript>
+    document.body.onkeyup = function(e){
+    if(e.keyCode == 32){
+        confirmWin();
+    }
+}
+    </script>
+
+	<div id="container">
+    <div id="header">
+      <h1>Create a Bingo Card</h1>
+    </div>
+	<div id="content">
+    <table id="bingoWin">
+			<tr>
+				<th>B</th>
+				<th>I</th>
+				<th>N</th>
+				<th>G</th>
+				<th>O</th>
+			</tr>
+			<tr>
+				<td class = "orange" id="bingo0"> &nbsp;</td>
+				<td class = "orange" id="bingo1"> &nbsp;</td>
+				<td class = "orange" id="bingo2"> &nbsp;</td>
+				<td class = "orange" id="bingo3"> &nbsp;</td>
+				<td class = "orange" id="bingo4"> &nbsp;</td>
+			
+		</table>
+	</div>
+	
+		<table id="bingotable">
+			<tr>
+				<td id="Box0"> &nbsp;</td>
+				<td id="Box1"> &nbsp;</td>
+				<td id="Box2"> &nbsp;</td>
+				<td id="Box3"> &nbsp;</td>
+				<td id="Box4"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="Box5"> &nbsp;</td>
+				<td id="Box6"> &nbsp;</td>
+				<td id="Box7"> &nbsp;</td>
+				<td id="Box8"> &nbsp;</td>
+				<td id="Box9"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="Box10"> &nbsp;</td>
+				<td id="Box11"> &nbsp;</td>
+				<td id="Boxfree"> FREE</td>
+				<td id="Box12"> &nbsp;</td>
+				<td id="Box13"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="Box14"> &nbsp;</td>
+				<td id="Box15"> &nbsp;</td>
+				<td id="Box16"> &nbsp;</td>
+				<td id="Box17"> &nbsp;</td>
+				<td id="Box18"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="Box19"> &nbsp;</td>
+				<td id="Box20"> &nbsp;</td>
+				<td id="Box21"> &nbsp;</td>
+				<td id="Box22"> &nbsp;</td>
+				<td id="Box23"> &nbsp;</td>
+			</tr>
+		</table>
+	</div>
+	
+<p><a href="#" onclick="newCard()">Click here</a> to create a new card</p>
+    
+
+
+</body>
+<script src="js/forFun.js"></script>
+
+</html>
